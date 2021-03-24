@@ -3,7 +3,7 @@ package com.yangzehan.domaim;
 public class Student {
     private String name,age;
     private Integer id;
-
+    private String ll;
     public Student() {
     }
 
