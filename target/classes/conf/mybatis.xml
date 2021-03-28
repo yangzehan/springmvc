@@ -3,13 +3,17 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <settings>
-        <setting name="logImpl" value="STDOUT_LOGGING"/>
-    </settings>
+
+
     <typeAliases>
         <package name="com.yangzehan.domaim"/>
+        <package name="com.yangzehan.workbench.domain"/>
     </typeAliases>
+
+
     <mappers>
         <package name="com.yangzehan.dao"/>
+        <package name="com.yangzehan.workbench.dao"/>
     </mappers>
+
 </configuration>
